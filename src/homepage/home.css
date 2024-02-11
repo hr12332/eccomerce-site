@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  width: 10%;
+  height: 10%;
+}
+
+.welcome {
+  font-size: 15px;
+  font-weight: 400;
+  color: grey;
+  /* padding-right: 20%; */
+}
+.title {
+  font-size: 40px;
+
+  font-weight: 600;
+  color: black;
+  /* padding-left: 15%; */
+}
+.text {
+  font-size: 15px;
+  font-weight: 400;
+  color: grey;
+
+  /* padding-left: 10%; */
+}
+.shopNow {
+  width: 20%;
+  background-color: blue;
+  color: white;
+  margin-top: 20px;
+  border-radius: 0px !important;
+}
+.shopNow:hover {
+  color: black !important;
+  border-color: black !important;
+  border-radius: 0px !important;
+}
+.banner {
+  width: 90%;
+  height: 100%;
+}
+.container-1 {
+  margin-top: 30px;
+}
+
+.shopNow:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+.wrap {
+  margin-left: 30%;
+}
+.check_now{
+  color: grey;
+  font-size: 12px;
+  text-align: start;
+  font-weight: 400;
+}
+.feature_services{
+  font-size: 30px;
+  font-weight: 600;
+  text-align: start;
+  color: black;
+}
+.feature_section{
+  padding: 16%;
+  padding-bottom:80px ;
+  padding-right: 16%;
+  margin-top: 100px;
+  padding-top: 50px;
+  background-color: rgb(238, 238, 243);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  margin-bottom: 100px;
+}
+.feature_card{
+  height: 100%;
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+}
+.wrap_content{
+  display: flex;
+  justify-content: space-between;
+}
+.feature_title,.feature_price{
+  font-size: 15px;
+  font-weight: 400;
+  color: grey;
+}
+:where(.css-dev-only-do-not-override-pr0fja).ant-btn {
+  padding: 0px !important;
+}

@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.footer-container {
+  background-color: #091020;
+  width: 100%;
+  height: 100%;
+}
+.footer-content {
+  text-align: center;
+}
+.name {
+  font-size: 15px;
+  color: #c6c9d8bf;
+}
+.description {
+  font-size: 15px;
+  color: #c6c9d8bf;
+  margin-top: 20px;
+}
+.follow {
+  font-size: 15px;
+  color: #c6c9d8bf;
+}
+.icons-div {
+  display: flex;
+  margin-top: 20px;
+}
+.instagram,
+.linkedin {
+  width: 35px;
+  height: 35px;
+  transition: transform 0.5s;
+  font-size: 14px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #c6c9d8bf;
+  color: #c6c9d8bf;
+  text-align: center;
+  border-radius: 100%;
+}
+
+.footer-row {
+  padding: 30px;
+  padding-bottom: 50px;
+}
+.call-heading {
+  font-size: 15px;
+  color: #c6c9d8bf;
+}
+.number {
+  font-size: 15px;
+  color: #c6c9d8bf;
+  margin-top: 20px;
+}
+.copyright {
+  font-size: 15px;
+  color: #c6c9d8bf;
+}
+.privacy {
+  font-size: 15px;
+  color: #c6c9d8bf;
+}
+.line-footer {
+  text-align: center;
+  width: 100%;
+  border: 1px solid white;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  padding: 20px;
+}
+.insta-icon,.linkedin-icon{
+    color: #c6c9d8bf;
+}
+.instagram:hover{
+    transform: scale(0.7);
+    cursor: pointer;
+}
+.linkedin:hover{
+    transform: scale(0.7);
+    cursor: pointer;
+}

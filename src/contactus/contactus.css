@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.contact-heading {
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.contact-form {
+  margin-right: 30%;
+  margin-left: 30%;
+}
+.send {
+  font-weight: 400;
+  text-align: center;
+  color: white;
+  background-color: blue;
+  padding: 5px;
+  width: 30%;
+  transition: 0.5s;
+  margin-bottom: 40px;
+}
+.send:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+.ant-form-item-required{
+    text-align: left !important;
+}

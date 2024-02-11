@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.card {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  border: 1px solid rgb(251, 248, 248);
+  width: 100%;
+  height: 100%;
+
+  border-radius: 0px !important;
+}
+img.card_img {
+  width: 100% !important ;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0px !important;
+}
+.product_container {
+  margin-bottom: 90px;
+}
+.ant-row.ant-row-center.css-dev-only-do-not-override-pr0fja {
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+}
+.card-title {
+  margin-bottom: 1rem;
+}
+.card-reviews {
+  margin-bottom: 1rem;
+  display: flex;
+}
+
+.rating-star {
+  color: #d5ab55;
+}
+
+.total-reviews {
+  font-size: 0.9rem;
+  margin-left: 10px;
+}
+.card-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.custom_btn {
+  background-color: blue !important;
+  color: white !important;
+  cursor: pointer;
+  border: none;
+  border-radius: 0px !important;
+  width: 43%;
+  text-align: center;
+  /* margin-left: 85%; */
+}
+.add_btn {
+  margin-bottom: 30px;
+}
+.edit-tooltip {
+  size: 20px;
+  position: absolute;
+  top: 15px;
+  right: 16px;
+}
+.icon_container .edit:hover {
+  cursor: pointer;
+  color: rgb(62, 159, 238) !important;
+}
+.icon_container .delete:hover {
+  cursor: pointer;
+  color: red !important;
+}
+.feather_icon {
+  cursor: pointer;
+}
+.category_div {
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+.brand,
+.category {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.view-switch {
+  margin-left: 3%;
+  display: flex;
+  margin-bottom: 3%;
+}
+.sort {
+  margin-left: 3%;
+}
+.view-icon1,
+.view-icon {
+  margin-left: 10px;
+  border: 1px solid black;
+  padding: 3px;
+}
+.view-icon:hover {
+  background-color: black;
+  color: white;
+}
+.view-icon1:hover {
+  background-color: black;
+  color: white;
+}
+.active {
+  background-color: black;
+  color: white;
+}
+
+.card1 {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  border: 1px solid rgb(251, 248, 248);
+  width: 30%;
+  height: 100%;
+  margin: 0 auto;
+  border-radius: 0px !important;
+}
+.search_product {
+  margin-left: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .view-icon,
+  .view-icon1 {
+    display: none;
+  }
+}
